@@ -7,10 +7,8 @@ interface ApologyMessageProps {
 }
 
 const messages = [
-  "Dear Lovena,",
-  "Maaf yaa kalo aku ngeselin banget,",
-  "Kalo ada apa apa, kita omongin yaaa",
-  "From Surya"
+  "If there is anything more beautiful than flowers,",
+  "It must be you, Lovena."
 ]
 
 export default function ApologyMessage({ visible }: ApologyMessageProps) {
@@ -21,7 +19,7 @@ export default function ApologyMessage({ visible }: ApologyMessageProps) {
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1.5, ease: 'easeOut' }}
-      className="fixed top-[36%] lg:top-[30%] left-[17%] lg:left-[40%] z-30 flex justify-center pointer-events-none"
+      className="fixed top-[40%] lg:top-[36%] left-[10%] lg:left-[40%] z-30 flex justify-center pointer-events-none"
     >
       <div className="max-w-2xl mx-4">
         <motion.div

@@ -136,7 +136,7 @@ export default function Home() {
         <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="absolute top-[43%] lg:top-[41%] left-[32%] lg:left-[45.5%] -translate-x-1/2 -translate-y-1/2 z-30 text-center pointer-events-none"
+          className="absolute top-[43%] lg:top-[41%] left-[36%] lg:left-[46%] -translate-x-1/2 -translate-y-1/2 z-30 text-center pointer-events-none"
         >
           <motion.p
             animate={{ opacity: [0.5, 1, 0.5] }}
@@ -144,7 +144,7 @@ export default function Home() {
             className="text-gray-700 text-sm font-serif"
             style={{ fontFamily: "'Playfair Display', serif" }}
           >
-            click bunganya sayaang
+            click the flower, love 
           </motion.p>
         </motion.div>
       )}
