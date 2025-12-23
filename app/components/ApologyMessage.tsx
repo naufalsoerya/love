@@ -21,7 +21,7 @@ export default function ApologyMessage({ visible }: ApologyMessageProps) {
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1.5, ease: 'easeOut' }}
-      className="fixed top-[36%] lg:top-[30%] left-[13%] lg:left-[40%] z-30 flex justify-center pointer-events-none"
+      className="fixed top-[36%] lg:top-[30%] left-[17%] lg:left-[40%] z-30 flex justify-center pointer-events-none"
     >
       <div className="max-w-2xl mx-4">
         <motion.div
